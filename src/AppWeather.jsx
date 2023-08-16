@@ -35,6 +35,7 @@ export const AppWeather = () => {
                 <input type="text"
                     value={ciudad}
                     onChange={cambioCiudad}
+                    placeholder="Nombre de la ciudad ej: Londres, Buenos Aires"
                 />
                 <button type="submit">Buscar</button>
             </form>
